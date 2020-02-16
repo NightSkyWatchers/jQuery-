@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#main {
+    /*css,多栏布局 达到瀑布流的效果!!!*/
+    /*!*-webkit-column-width: 202px;*!*/
+    /*column-width: 202px;*/
+    /*-moz-column-width: 202px;*/
+    position: relative;
+    background-color: red;
+}
+.box {
+    /*background-color: red;*/
+    float: left;
+    /*width: 202px;*/
+    padding: 15px 0 0 10px;
+}
+
+.pic {
+    /*background-color: yellow;*/
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.pic img {
+    width: 165px;
+}
